@@ -14,16 +14,28 @@ module.exports = {
                 items:[
                     { text:'CSS' , link:'/CSS/'},
                     { text:'JS' , link:'/JS/'},
-                    { text:'Webpack' , link:'/Webpack/'}
+                    { text:'Webpack' , link:'/Webpack/'},
+                    { text:'Vue', link:'/Vue/'}
                 ]
             }
         ],
         // 为以下路由添加左侧边栏
         sidebar: {
+            '/CSS/':[
+                {
+                    title:'CSS',
+                    collapsable:false,
+                    children:[
+                        { title:'浮动' , path:'/CSS/浮动/float'},
+                        { title:'定位' , path:'/CSS/定位/position'}
+                    ]
+                },
+
+            ],
             '/JS/': [
                 {
                     title:'基础',
-                    collapsable: true,
+                    collapsable: false,
                     children:[
                         { title:'js栈内存和堆内存', path:'/JS/base/base01'},
                         { title:'js语法', path:'/JS/base/base02'},
@@ -32,51 +44,83 @@ module.exports = {
                     ]
                 },
                 {
-                    title:'字符串',
-                    collapsable: true,
-                    path:'/JS/String/methods'
-                },
-                {
-                    title:'数组',
-                    collapsable: true,
-                    path:'/JS/Array/methods'
-                },
-                {
-                    title:'对象',
-                    collapsable: true,
-                    path:'/JS/Object/methods'
-                },
-                {
                     title:'函数',
-                    collapsable: true,
+                    collapsable: false,
                     children:[
                         { title:'函数声明', path:'/JS/Function/函数声明'},
-                        { title:'参数及返回值',path:'/JS/Function/参数及返回值'}
+                        { title:'参数及返回值',path:'/JS/Function/函数参数'},
+                        { title:'立即执行回调递归', path:'/JS/Function/立即执行回调递归'},
+                        { title:'预编译', path:'/JS/Function/预编译'}
                     ]
                 },
                 {
                     title:'DOM',
-                    collapsable: true,
+                    collapsable: false,
                     children: [
                         { title:'节点对象', path:'/JS/DOM/methods'}
                     ]
                 },
                 {
                     title:'Event',
-                    collapsable: true,
+                    collapsable: false,
                     children:[
                         { title:'事件1', path:'/JS/Event/a'}
                     ]
                 },
                 {
                     title:'Ajax',
-                    collapsable: true,
+                    collapsable: false,
                     children:[
-                        { title:'ajax', path:'/JS/Ajax/a'}
+                        { title:'封装', path:'/JS/Ajax/封装'}
+                    ]
+                },
+                {
+                    title:'对象',
+                    collapsable: false,
+                    path:'/JS/Object/methods'
+                },
+                {
+                    title:'数组方法',
+                    collapsable: false,
+                    path:'/JS/Array/methods'
+                },
+                {
+                    title:'字符串方法',
+                    collapsable: false,
+                    path:'/JS/String/methods'
+                }
+            ],
+            '/Vue/': [
+                {
+                    title:'Vue基础',
+                    collapsable:false,
+                    children: [
+                        { title:'项目创建',path:'/Vue/base/base1'},
+                        { title:'指令系统一',path:'/Vue/base/base2'},
+                        { title:'指令系统二',path:'/Vue/base/base3'}
+                    ]
+                },
+                {
+                    title:'组件通信',
+                    collapsable: false,
+                    children:[
+                        { title:'props & $emit', path:'/Vue/组件通信/props&$emit'},
+                        { title:'$emit & $on' , path:'/Vue/组件通信/$emit&$on'},
+                        { title:'$attrs & $listeners', path:'/Vue/组件通信/$attrs&$listeners'},
+                        { title:'$refs & $root' , path:'/Vue/组件通信/$refs&$root'},
+                        { title:'Vuex' , path:'/Vue/组件通信/vuex' }
+                    ]
+                },
+                {
+                    title:'路由相关',
+                    collapsable: false,
+                    children:[
+                        { title:'路由基础' , path:'/Vue/router/基础.md'},
+                        { title:'路由传参' , path:'/Vue/router/传参.md'},
+                        { title:'懒加载' , path:'/Vue/router/路由懒加载.md'}
                     ]
                 }
             ]
-
 
             // 下面注释的是：仅仅配置基础侧边栏，上面是导航栏联动侧边栏。
             // '/': [
@@ -142,7 +186,7 @@ module.exports = {
             //     }
             // ],
         },
-        sidebarDepth: 1,//左侧导航显示的层级
+        sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
     }
 }

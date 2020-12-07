@@ -34,7 +34,7 @@
     console.log(str1);
 ```
 
-## 4.indexOf
+## 4.indexOf 和 lastIndexOf
 
 > indexOf() 用于查找子字符串在字符串中首次出现的位置，并返回所在位置下标，没有则返回 -1 (该方法严格区分大小写),从左向右查找。
 
@@ -105,3 +105,55 @@
 > start表示开始截取字符的位置，可以取正值或者负值，去正值表示start位置索引，取负值表示 length + start位置的索引
 
 > length 可选可不选，必须为数值，如果省略，则一直截取到结尾
+
+```javascript
+    var str = "我是cht";
+    console.log(str.substr(0)); // 我是cht
+    console.log(str.substr(0,2)); // 我是
+```
+
+## 8.substring
+> substring 返回字符串两索引之间的字串
+> str.substring(indexA[,indexB])
+> indexA indexB 表示字符串索引，其中indexB可选(不包括indexB)，如果省略，则返回indexA到结尾
+
+**规律：**
+
+* 若indexA == indexB,则返回一个空字符串
+* 若省略indeB,则提取字符一直到字符串末尾
+* 若任一参数小于0或NaN,则被当作0
+* 若任一参数大于 length，则被当作length  表示indexA 一直到结尾的索引
+* 而如果indexA > indexB,则substring的执行效果就像是俩个参数调换一般。比如：str.substring(0,1) == str.substring(1,0)
+
+```javascript
+    var str = 'abcdefg';
+    console.log(str.substring(0)); // abcdefg  只有一个参数时，返回 这个参数的索引到最后
+    console.log(str.substring(0,3)); //abc  返回 索引 1-3 的字串
+    console.log(str.substring(1,1)); // ""  返回空字符串
+    console.log(str.substring(0,str.length)); // abcdefg    出现length或大于length 表示末尾
+    console.log(str.substring(-1,str.length)); // abcdefg   出现 0 或 NaN 当作0
+    console.log(str.substring(0,1) == str.substring(1,0)); // 参数调换
+```
+## 9.toLowerCase 和 toUpperCase
+> 这两个方法返回字符串的小写 和大写形式。
+
+```javascript
+    var str = 'ABCDE';
+    console.log(str.toLowerCase()); // abcde
+    var str1 = 'abcde'
+    console.log(str1.toUpperCase()); // ABCDE
+```
+## 10.toString 和 valueOf
+> 这两个方法返回字符串本身
+```javascript
+    var str = 'cht';
+    console.log(str.toString()); // cht
+    console.log(str.valueOf()); // cht
+```
+
+## 11.trim
+> 这个方法用于去除字符串首尾空白并返回
+```javascript
+    var str = " a b c ";
+    console.log(str.trim()); //"a b c"
+```

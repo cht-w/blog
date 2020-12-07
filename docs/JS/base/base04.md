@@ -131,10 +131,45 @@
 
 ## 4.隐式类型转换
 
+1. +运算符内部会隐式调用String()
+```javascript
+    var a = 'a' + 1;  // String(1) => 'a' + '1'
+    console.log(a); // a1
+```
+2. 运算符内部（-  *  /  %）会隐式调用Number()
+```javascript
+    var a = '3' * 2;  // str -> Number    [- * / %]
+    console.log(a) // 6
 
+    var b = '1' > 2   // str -> Number     > = <
+    console.log(b); // false
+    
+    var c = 1 == '1';
+    console.log(c)  // true    
 
+    var d = 1 === '1';  // 不进行隐式转换
+    console.log(d) // false 
+```
 
+3. 运算符内部(++/–,正负)会隐式调用Number()
 
-
+```javascript
+    var a = '123';
+    a++;
+    console.log(a); //124
+    var num='123';
+    console.log(typeof(+num));//number
+    var num='abc';
+    console.log(typeof(-num)+':'+-num);//number:NaN
+```
+4. isNaN() 需要经过Number()处理
+```javascript
+    console.log(isNaN(NaN));//true
+    console.log(isNaN(undefined))//true
+    console.log(isNaN(null));//false
+    console.log(isNaN('ab'));//true
+    console.log(isNaN('null'));//true
+    console.log(isNaN(1));//false
+```
 
 [优质文章1](https://segmentfault.com/a/1190000017016407)

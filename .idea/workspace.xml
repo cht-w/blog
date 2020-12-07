@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30b3133b-1b20-4051-8466-10f31e20b16b" name="Default Changelist" comment="2">
+      <change afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/定位/position.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/浮动/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/浮动/float.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/JS/Ajax/封装.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/JS/Function/立即执行回调递归.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/JS/Function/预编译.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/base/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/base/base1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/base/base2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/base/base3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/router/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/router/传参.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/router/基础.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/router/路由懒加载.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/组件通信/$attrs&amp;$listeners.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/组件通信/$emit&amp;$on.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/组件通信/$refs&amp;$root.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/组件通信/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/组件通信/props&amp;$emit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Vue/组件通信/vuex.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JS/Ajax/a.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CSS/定位/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JS/Function/函数声明.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/Function/函数声明.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JS/Function/参数及返回值.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/Function/函数参数.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JS/String/methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/String/methods.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JS/base/base03.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/base/base03.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JS/base/base04.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/base/base04.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l09ZepGJ2hZW9QkbT10iSA36XL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../vue/vue-" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\interview\note\blog\docs\Vue\base" />
+      <recent name="F:\interview\note\blog\docs\.vuepress\public" />
+      <recent name="F:\interview\note\blog\docs" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30b3133b-1b20-4051-8466-10f31e20b16b" name="Default Changelist" comment="" />
+      <created>1606723199669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606723199669</updated>
+      <workItem from="1606723201137" duration="6684000" />
+      <workItem from="1606742072954" duration="1688000" />
+      <workItem from="1606744182723" duration="7278000" />
+      <workItem from="1606785802678" duration="2178000" />
+      <workItem from="1606875675713" duration="25234000" />
+      <workItem from="1606958903413" duration="1361000" />
+      <workItem from="1606961797178" duration="24255000" />
+      <workItem from="1607065633406" duration="2001000" />
+      <workItem from="1607304375364" duration="9718000" />
+      <workItem from="1607320162212" duration="11000" />
+    </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1606723530878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606723530878</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2">
+      <created>1606723646631</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606723646631</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="522" y="218" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606891434297">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="522" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1606891434297" />
+    <state x="549" y="181" key="FileChooserDialogImpl" timestamp="1606982341839">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="181" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606982341839" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606744178805" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606723658996">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606723658996" />
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1606896146353">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1606896146353" />
+    <state x="431" y="175" width="672" height="655" key="search.everywhere.popup" timestamp="1606985233680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="175" width="672" height="655" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1606985233680" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1606727588144" />
+  </component>
+</project>
