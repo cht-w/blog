@@ -20,39 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30b3133b-1b20-4051-8466-10f31e20b16b" name="Default Changelist" comment="2">
-      <change afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/定位/position.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/浮动/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/浮动/float.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/JS/Ajax/封装.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/JS/Function/立即执行回调递归.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/JS/Function/预编译.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/base/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/base/base1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/base/base2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/base/base3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/router/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/router/传参.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/router/基础.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/router/路由懒加载.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/组件通信/$attrs&amp;$listeners.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/组件通信/$emit&amp;$on.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/组件通信/$refs&amp;$root.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/组件通信/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/组件通信/props&amp;$emit.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Vue/组件通信/vuex.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/JS/Function/作用域和作用域链.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/JS/Ajax/a.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CSS/定位/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/JS/Function/函数声明.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/Function/函数声明.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/JS/Function/参数及返回值.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/Function/函数参数.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/JS/String/methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/String/methods.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/JS/base/base03.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/base/base03.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/JS/base/base04.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/base/base04.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JS/Function/预编译.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/Function/预编译.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +74,7 @@
       <workItem from="1607065633406" duration="2001000" />
       <workItem from="1607304375364" duration="9718000" />
       <workItem from="1607320162212" duration="11000" />
+      <workItem from="1607435454181" duration="5908000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606723530878</created>

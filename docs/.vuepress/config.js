@@ -50,7 +50,8 @@ module.exports = {
                         { title:'函数声明', path:'/JS/Function/函数声明'},
                         { title:'参数及返回值',path:'/JS/Function/函数参数'},
                         { title:'立即执行回调递归', path:'/JS/Function/立即执行回调递归'},
-                        { title:'预编译', path:'/JS/Function/预编译'}
+                        { title:'预编译', path:'/JS/Function/预编译'},
+                        { title:'作用域和作用域链', path:'/JS/Function/作用域和作用域链'}
                     ]
                 },
                 {
