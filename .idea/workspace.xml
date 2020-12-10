@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30b3133b-1b20-4051-8466-10f31e20b16b" name="Default Changelist" comment="2">
-      <change afterPath="$PROJECT_DIR$/docs/JS/Function/作用域和作用域链.md" afterDir="false" />
+    <list default="true" id="30b3133b-1b20-4051-8466-10f31e20b16b" name="Default Changelist" comment="add">
+      <change afterPath="$PROJECT_DIR$/docs/JS/Function/作用域链.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/JS/Function/闭包.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/JS/Function/预编译.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/Function/预编译.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JS/Function/作用域和作用域链.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/Function/作用域.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,8 @@
       <workItem from="1607304375364" duration="9718000" />
       <workItem from="1607320162212" duration="11000" />
       <workItem from="1607435454181" duration="5908000" />
+      <workItem from="1607518814409" duration="7949000" />
+      <workItem from="1607563958155" duration="1351000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606723530878</created>
@@ -90,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606723646631</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add">
+      <created>1607518968046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607518968047</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +121,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
     <state x="522" y="218" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606891434297">
@@ -123,17 +134,19 @@
     </state>
     <state x="549" y="181" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606982341839" />
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606744178805" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606723658996">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="2371" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607518972969">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="2371" y="201" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607518972969" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606723658996" />
     <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1606896146353">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1606896146353" />
-    <state x="431" y="175" width="672" height="655" key="search.everywhere.popup" timestamp="1606985233680">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="2459" y="220" width="840" height="825" key="search.everywhere.popup" timestamp="1607523809296">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="2459" y="220" width="840" height="825" key="search.everywhere.popup/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607523809296" />
     <state x="431" y="175" width="672" height="655" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1606985233680" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1606727588144" />
   </component>

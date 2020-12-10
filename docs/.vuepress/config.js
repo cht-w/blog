@@ -51,7 +51,10 @@ module.exports = {
                         { title:'参数及返回值',path:'/JS/Function/函数参数'},
                         { title:'立即执行回调递归', path:'/JS/Function/立即执行回调递归'},
                         { title:'预编译', path:'/JS/Function/预编译'},
-                        { title:'作用域和作用域链', path:'/JS/Function/作用域和作用域链'}
+                        { title:'作用域', path:'/JS/Function/作用域'},
+                        { title:'作用域链', path:'/JS/Function/作用域链'},
+                        { title:'闭包', path:'/JS/Function/闭包'},
+
                     ]
                 },
                 {
@@ -121,6 +124,39 @@ module.exports = {
                         { title:'懒加载' , path:'/Vue/router/路由懒加载.md'}
                     ]
                 }
+            ],
+            '/Webpack/': [
+                {
+                    title:'webpack介绍',
+                    collapsable:false,
+                    path:'/Webpack/介绍'
+                },
+                {
+                    title:'五大核心',
+                    collapsable:false,
+                    path:'/Webpack/五大核心'
+                },
+                {
+                    title:'初体验',
+                    collapsable:false,
+                    path:'/Webpack/初体验'
+                },
+                {
+                    title:'打包样式资源',
+                    collapsable:false,
+                    path:'/Webpack/打包样式资源'
+                },
+                {
+                    title:'打包图片资源',
+                    collapsable:false,
+                    path:'/Webpack/打包图片资源'
+                },
+                {
+                    title:'打包html文件',
+                    collapsable:false,
+                    path:'/Webpack/打包html文件'
+                }
+               
             ]
 
             // 下面注释的是：仅仅配置基础侧边栏，上面是导航栏联动侧边栏。
