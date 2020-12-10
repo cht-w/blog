@@ -20,12 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30b3133b-1b20-4051-8466-10f31e20b16b" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/docs/JS/Function/作用域链.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/JS/Function/闭包.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Webpack/devServer.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/JS/Function/作用域和作用域链.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/Function/作用域.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JS/Function/闭包.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/Function/闭包.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Webpack/打包html文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Webpack/打包html文件.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Webpack/打包其他文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Webpack/打包其他文件.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Webpack/打包样式资源.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Webpack/打包样式资源.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +80,7 @@
       <workItem from="1607435454181" duration="5908000" />
       <workItem from="1607518814409" duration="7949000" />
       <workItem from="1607563958155" duration="1351000" />
+      <workItem from="1607608244187" duration="7334000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606723530878</created>

@@ -155,6 +155,16 @@ module.exports = {
                     title:'打包html文件',
                     collapsable:false,
                     path:'/Webpack/打包html文件'
+                },
+                {
+                    title:'打包其他文件',
+                    collapsable:false,
+                    path:'/Webpack/打包其他文件'
+                },
+                {
+                    title:'devServer',
+                    collapsable:false,
+                    path:'/Webpack/devServer'
                 }
                
             ]

@@ -8,13 +8,29 @@
 
 1. 新建一个文件夹， 并创建一个src文件，在src中创建 index.js 入口文件，和 index.html 文件。
 
+这里的 index.js 可以随便写，index.html也可以随意写。
+
+```html
+// index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>打包html页面</h2>
+</body>
+</html>
+```
+
 2. 初始化项目及安装webpack-cli等不详细写,看上一篇。
 
 3. html 打包需要使用  html-webpack-plugin依赖。
 
 ```javascript
     // plugins 使用：  1. 下载  2.引入  3. 使用
-    // 运行命令：
+    // 安装命令：
     1.cnpm  i html-webpack-plugin -D
     // 引用：
     2. const HtmlWebpackPlugin = require("html-webpack-plugin");
