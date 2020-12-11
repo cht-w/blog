@@ -63,14 +63,18 @@ module.exports = {
                     collapsable: false,
                     children:[
                         { title:'对象创建及构造函数', path:'/JS/Object/对象的创建及构造函数'},
-                        { title:'对象基本操作',path:'/JS/Object/methods'}
+                        { title:'对象基本操作',path:'/JS/Object/methods'},
+                        { title:'深浅拷贝', path:'/JS/Object/深浅拷贝'}
                     ]
                 },
                 {
                     title:'DOM',
                     collapsable: false,
                     children: [
-                        { title:'节点对象', path:'/JS/DOM/methods'}
+                        { title:'文档加载', path:'/JS/DOM/文档加载'},
+                        { title:'document对象', path:'/JS/DOM/document'},
+                        { title:'节点关系', path:'/JS/DOM/节点关系及操作'},
+                        { title:'节点操作',path:'/JS/DOM/节点操作'}
                     ]
                 },
                 {

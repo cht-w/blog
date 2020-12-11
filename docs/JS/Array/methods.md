@@ -58,9 +58,9 @@
 ```
 ## for of
 
-1. for..of适用遍历数组/数组对象/字符串/map/set等拥有迭代器对象的集合.但是不能遍历对象,因为没有迭代器对象.与forEach()不同的是，它可以正确响应break、continue和return语句。
-2. for of循环不支持普通对象，但如果你想迭代一个对象的属性，你可以用for-in循环（这也是它的本职工作）或内建的Object.keys()方法
-3. for of无法遍历对象
+1. for... of适用遍历数组/数组对象/字符串/map/set等拥有迭代器对象的集合.但是不能遍历对象,因为没有迭代器对象.与forEach()不同的是，它可以正确响应break、continue和return语句。
+2. for... of无法遍历对象。
+3. for... of 的循环可以避免我们开拓内存空间，增加代码运行效率。
 
 ```javascript
     const arr = ["jack" , 'tom' , "andy"];
