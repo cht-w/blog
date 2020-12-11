@@ -1,1 +1,143 @@
-11111111111111111
+<div align='center' ><font size='70'>数组方法</font></div>
+
+--------------
+
+## for循环
+```javascript
+    const arr = [ 1, 2 , 3 , 4 , 5];
+    for (let i = 0 ; i < arr.length ; i++) {
+        console.log(arr[i]);
+    }
+    // for 循环中存在 continue 和 break 可以控制循环流程
+```
+
+## forEach
+```javascript
+    const arr = [ 1, 2 , 3 , 4 , 5];
+    arr.forEach((item , index)=> {
+        console.log(item , index);
+    })
+    // 不支持 continue 和 break。
+```
+
+## every
+
+**所有元素都满足返回true, 有一个不满足返回false**
+
+* every() 方法用于检测数组所有元素是否都符合指定条件（通过函数提供）。 
+* every() 方法使用指定函数检测数组中的所有元素：
+* 如果数组中检测到有一个元素不满足，则整个表达式返回 false ，且剩余的元素不会再进行检测。
+* 如果所有元素都满足条件，则返回 true。
+* 注意： every() 不会对空数组进行检测。
+* 注意： every() 不会改变原始数组。
+
+```javascript
+    const arr = [ 1, 2 , 3 , 4 , 5];
+    arr.every((item) => {
+        if(item === 2 ) {
+            return false
+        }else {
+            console.log(item)
+            return true
+        }
+    })
+```
+
+## for in 
+
+**是为对象来设计的  数组也是一个Object**
+
+1. 使用for in会遍历数组所有的可枚举属性，包括原型。
+2. index索引为字符串型数字，不能直接进行几何运算。
+3. 遍历顺序有可能不是按照实际数组的内部顺序。
+
+```javascript
+    for ( let index in arr) {
+        console.log(index , arr[index]);
+    }
+```
+## for of
+
+1. for..of适用遍历数组/数组对象/字符串/map/set等拥有迭代器对象的集合.但是不能遍历对象,因为没有迭代器对象.与forEach()不同的是，它可以正确响应break、continue和return语句。
+2. for of循环不支持普通对象，但如果你想迭代一个对象的属性，你可以用for-in循环（这也是它的本职工作）或内建的Object.keys()方法
+3. for of无法遍历对象
+
+```javascript
+    const arr = ["jack" , 'tom' , "andy"];
+    const arr1 = [
+        {name:'jack' , age:18},
+        {name:'tom' , age:14},
+        {name:'andy' , age:13}
+    ]
+    for (let item of arr) {
+        console.log(item)
+    }
+    for(let item of arr1) {
+        console.log(item)
+    }
+```
+## for in 和 for of 区别
+
+1. for of 无法循环遍历对象，而for in 就是为对象设计的。
+
+2. for in 遍历的key (键值)  而for of 遍历的是item (数组值)
+
+3. for in 会遍历自身属性(这一点对数组不友好)  而for of 不会
+
+
+
+# 伪数组转换 
+
+**arguments参数、nodeList**
+```javascript
+    // ES5  
+    let args = [].slice.call(arguments); // collection
+    let imgs = [].slice.call(document.querySelectorAll("img")); // NodeList
+    // ES6   Array.prototype.from()
+    let args = Array.prototype.from(arguments);
+    let imgs = Array.prototype.from(document.querySelectorAll("img"));
+    
+```
+## Array.from
+**Array.from ( arrayList , mapFn , thisArg )**
+```javascript
+    // 初始化并填充数组的值
+    let array = Array.from({length:5} , function() { return 1})
+```
+# 数组生成
+```javascript
+    //ES5
+    let arr = new Array(5) // 生成一个数组并指明长度
+    let arr = [] 
+    //ES6  
+    // Array.prototype.of
+    let arr = Array.of(1,2,3,4,5)
+    // Array.prototype.fill(value , start , end) 填充
+    let arr = Array(5).fill(1)
+```
+# 数组元素查找
+
+## filter 
+
+**无论是否存在都返回一个数组  关注的是满足条件的所有值（都返回到一个数组）**
+
+```javascript
+    let arr = Array.of("js" , "css" , "html" ,"node")
+    let res = arr.filter((item)=> item === 'css')  // 存在返回 [ 'css']  不存在返回 []
+```
+## find  
+
+**存在返回该元素  不存在返回 undefind  关注的是满足条件的第一个值，找到就返回**
+
+```javascript
+    let arr = Array.of("js" , "css" , "html" ,"node")
+    let res = arr.find((item)=> item==='html') // 'html'
+```
+## findIndex 
+
+**存在就返回该元素索引,不存在就返回 -1   关注的是：满足条件的第一个值，找到就返回索引**
+
+```javascript
+    let arr = Array.of("js" , "css" , "html" ,"node")
+    let res = arr.findIndex((item)=> item==='html')
+```

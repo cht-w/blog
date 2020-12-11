@@ -1,14 +1,13 @@
 ---
 home: true
 heroImage: /home.jpg
-heroText: 努力让自己变得优秀
 tagline: 哪有什么岁月静好，不过是有人替你负重前行
 actionText: 开始阅读 →
-actionLink: /JS/
+actionLink: /Guide/
 ---
 --------
 :::tip
-    记录学习的点点滴滴。HTML , CSS , JS , ES6 , Git , Vue , Webpack , Gulp.
+    记录学习的点点滴滴。HTML 、 CSS 、 JS 、 ES6 、 Git 、 Vue 、 Webpack 、 Gulp。
 :::
 
 

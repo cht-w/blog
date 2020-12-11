@@ -15,6 +15,7 @@ module.exports = {
                     { text:'CSS' , link:'/CSS/'},
                     { text:'JS' , link:'/JS/'},
                     { text:'Webpack' , link:'/Webpack/'},
+                    { text:'Git' , link:'/Git/'},
                     { text:'Vue', link:'/Vue/'}
                 ]
             }
@@ -58,6 +59,14 @@ module.exports = {
                     ]
                 },
                 {
+                    title:'对象',
+                    collapsable: false,
+                    children:[
+                        { title:'对象创建及构造函数', path:'/JS/Object/对象的创建及构造函数'},
+                        { title:'对象基本操作',path:'/JS/Object/methods'}
+                    ]
+                },
+                {
                     title:'DOM',
                     collapsable: false,
                     children: [
@@ -77,11 +86,6 @@ module.exports = {
                     children:[
                         { title:'封装', path:'/JS/Ajax/封装'}
                     ]
-                },
-                {
-                    title:'对象',
-                    collapsable: false,
-                    path:'/JS/Object/methods'
                 },
                 {
                     title:'数组方法',
@@ -108,11 +112,11 @@ module.exports = {
                     title:'组件通信',
                     collapsable: false,
                     children:[
-                        { title:'props & $emit', path:'/Vue/组件通信/props&$emit'},
-                        { title:'$emit & $on' , path:'/Vue/组件通信/$emit&$on'},
-                        { title:'$attrs & $listeners', path:'/Vue/组件通信/$attrs&$listeners'},
+                        { title:'父子组件通信', path:'/Vue/组件通信/props&$emit'},
+                        { title:'跨组件通信' , path:'/Vue/组件通信/$emit&$on'},
+                        { title:'多级嵌套组件通信', path:'/Vue/组件通信/$attrs&$listeners'},
                         { title:'$refs & $root' , path:'/Vue/组件通信/$refs&$root'},
-                        { title:'Vuex' , path:'/Vue/组件通信/vuex' }
+                        { title:'Vuex-状态集' , path:'/Vue/组件通信/vuex' }
                     ]
                 },
                 {
@@ -121,7 +125,7 @@ module.exports = {
                     children:[
                         { title:'路由基础' , path:'/Vue/router/基础.md'},
                         { title:'路由传参' , path:'/Vue/router/传参.md'},
-                        { title:'懒加载' , path:'/Vue/router/路由懒加载.md'}
+                        { title:'路由懒加载' , path:'/Vue/router/路由懒加载.md'}
                     ]
                 }
             ],
