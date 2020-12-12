@@ -55,7 +55,8 @@ module.exports = {
                         { title:'作用域', path:'/JS/Function/作用域'},
                         { title:'作用域链', path:'/JS/Function/作用域链'},
                         { title:'闭包', path:'/JS/Function/闭包'},
-
+                        { title:'this指向问题', path:'/JS/Function/this指向问题'},
+                        { title:'call,apply,bind', path:'/JS/Function/改变this'}
                     ]
                 },
                 {
@@ -81,7 +82,7 @@ module.exports = {
                     title:'Event',
                     collapsable: false,
                     children:[
-                        { title:'事件1', path:'/JS/Event/a'}
+                        { title:'事件级别', path:'/JS/Event/事件级别'}
                     ]
                 },
                 {
