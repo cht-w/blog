@@ -27,6 +27,10 @@ module.exports = {
                     title:'CSS',
                     collapsable:false,
                     children:[
+                        { title:'选择器', path:'/CSS/选择器/选择器'},
+                        { title:'伪类' , path:'/CSS/伪类/伪类'},
+                        { title:'字体' , path: '/CSS/字体/font'},
+                        { title:'背景' , path:'/CSS/背景/background'},
                         { title:'浮动' , path:'/CSS/浮动/float'},
                         { title:'定位' , path:'/CSS/定位/position'}
                     ]
@@ -43,6 +47,16 @@ module.exports = {
                         { title:'js运算符', path:'/JS/base/base03'},
                         { title:'js数据类型', path:'/JS/base/base04'},
                     ]
+                },
+                {
+                    title:'字符串String',
+                    collapsable: false,
+                    path:'/JS/String/methods'
+                },
+                {
+                    title:'数组Array',
+                    collapsable: false,
+                    path:'/JS/Array/methods'
                 },
                 {
                     title:'函数',
@@ -92,16 +106,6 @@ module.exports = {
                         { title: "Ajax入门", path:'/JS/Ajax/ajax入门'},
                         { title:'网络请求封装', path:'/JS/Ajax/封装'}
                     ]
-                },
-                {
-                    title:'数组方法',
-                    collapsable: false,
-                    path:'/JS/Array/methods'
-                },
-                {
-                    title:'字符串方法',
-                    collapsable: false,
-                    path:'/JS/String/methods'
                 }
             ],
             '/Vue/': [
