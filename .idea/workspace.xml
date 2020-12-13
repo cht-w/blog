@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30b3133b-1b20-4051-8466-10f31e20b16b" name="Default Changelist" comment="add">
+    <list default="true" id="30b3133b-1b20-4051-8466-10f31e20b16b" name="Default Changelist" comment="add 事件机制">
+      <change afterPath="$PROJECT_DIR$/docs/JS/Ajax/ajax入门.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/JS/Event/事件级别.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/Event/事件级别.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JS/Ajax/封装.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/Ajax/封装.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/JS/Function/this指向问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/Function/this指向问题.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +80,7 @@
       <workItem from="1607563958155" duration="1351000" />
       <workItem from="1607608244187" duration="8817000" />
       <workItem from="1607650254795" duration="24792000" />
-      <workItem from="1607758284206" duration="3113000" />
+      <workItem from="1607758284206" duration="13987000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606723530878</created>
@@ -127,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607758299269</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add 事件机制">
+      <created>1607844149472</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607844149473</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +160,8 @@
     <MESSAGE value="first" />
     <MESSAGE value="2" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="add 事件机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 事件机制" />
   </component>
   <component name="WindowStateProjectService">
     <state x="522" y="218" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606891434297">
@@ -161,16 +173,16 @@
     </state>
     <state x="549" y="181" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606982341839" />
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606744178805" />
-    <state x="2371" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607758304717">
+    <state x="2371" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607844170348">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2371" y="201" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607758304717" />
+    <state x="2371" y="201" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607844170348" />
     <state x="361" y="160" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1607676099740" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606723658996" />
-    <state x="2451" y="238" width="840" height="853" key="run.anything.popup" timestamp="1607758947737">
+    <state x="2451" y="238" width="840" height="853" key="run.anything.popup" timestamp="1607846101288">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2451" y="238" width="840" height="853" key="run.anything.popup/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607758947737" />
+    <state x="2451" y="238" width="840" height="853" key="run.anything.popup/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607846101288" />
     <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1607678457253" />
     <state x="431" y="175" width="672" height="655" key="search.everywhere.popup" timestamp="1607677602968">
       <screen x="0" y="0" width="1536" height="834" />

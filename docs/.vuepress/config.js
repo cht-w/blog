@@ -89,7 +89,8 @@ module.exports = {
                     title:'Ajax',
                     collapsable: false,
                     children:[
-                        { title:'封装', path:'/JS/Ajax/封装'}
+                        { title: "Ajax入门", path:'/JS/Ajax/ajax入门'},
+                        { title:'网络请求封装', path:'/JS/Ajax/封装'}
                     ]
                 },
                 {
