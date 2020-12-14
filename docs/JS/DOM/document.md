@@ -15,13 +15,12 @@ Document Object Model，文档对象模型。DOM 为文档提供了结构化表�
 ```
 document 构造函数 -> HTMLDocument
 HTMLDocument 构造函数 -> Document
-HTMLDocument 构造出来的对象里面有 __proto__ .Document.prototype
 
 document.__proto__ = HTMLDocument.prototype
 HTMLDocument.__proto__ = Document.prototype
 
 最终：
-document 》HTMLDocument 》Document 》Node
+document 》HTMLDocument 》Document 》Node 》 EventTarget 》 Object
 ```
 ## 获取元素的方法
 
@@ -33,12 +32,9 @@ getElementsByTagName()  //  返回一组元素，类数组
 getElementsByTagName('*')  //  获取所有的元素
 
 
-// Document.prototype; Element.prototype 有以下四个方法：
-
 getElementsByClassName() // 返回一组元素，类数组 IE8及以下不支持
 getElementsByName()  // 返回一组元素，类数组. 很少用
 
-// 新引入WEB API, IE7就出现了
 querySelector(参数为CSS选择器一样)  // 返回单个元素
 querySelectorAll(参数为CSS选择器一样)  //  返回一组元素，类数组 
 // 缺点: 1、性能比getElement 系列慢; 2、不实时，有缓存片段
