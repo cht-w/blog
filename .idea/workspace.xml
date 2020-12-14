@@ -19,26 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30b3133b-1b20-4051-8466-10f31e20b16b" name="Default Changelist" comment="部分修改">
-      <change afterPath="$PROJECT_DIR$/docs/CSS/css3属性/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/css3属性/css3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/动画/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/动画/动画.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/文档流/文档流.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/盒模型/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/盒模型/盒子模型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/转换/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/转换/转换.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/过渡/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/CSS/过渡/过渡.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/JS/Object/原型及原型链.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/CSS/浮动/float.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CSS/浮动/float.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/CSS/背景/background.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CSS/背景/background.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Vue/组件通信/$attrs&amp;$listeners.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vue/组件通信/$attrs&amp;$listeners.md" afterDir="false" />
-    </list>
+    <list default="true" id="30b3133b-1b20-4051-8466-10f31e20b16b" name="Default Changelist" comment="部分修改" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +78,7 @@
       <workItem from="1607909152765" duration="2918000" />
       <workItem from="1607943885589" duration="533000" />
       <workItem from="1607955006283" duration="169000" />
-      <workItem from="1607955502365" duration="6805000" />
+      <workItem from="1607955502365" duration="7109000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606723530878</created>
@@ -176,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607911433868</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="部分修改">
+      <created>1607962549308</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607962549308</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
