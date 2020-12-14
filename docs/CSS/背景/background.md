@@ -147,3 +147,14 @@ background-clip: content-box;
     background-image: url(1.png)
 ```
 **方向可以是：`to left`、`to right`、`to top`、`to bottom`、角度`30deg`（指的是顺时针方向30°）。**
+
+
+## 背景铺满效果
+```css
+div {
+    height: 100vh;
+    background: url(xxxx);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+```

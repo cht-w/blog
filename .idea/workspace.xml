@@ -19,10 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30b3133b-1b20-4051-8466-10f31e20b16b" name="Default Changelist" comment="add">
+    <list default="true" id="30b3133b-1b20-4051-8466-10f31e20b16b" name="Default Changelist" comment="部分修改">
+      <change afterPath="$PROJECT_DIR$/docs/CSS/css3属性/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/css3属性/css3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/动画/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/动画/动画.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/文档流/文档流.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/盒模型/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/盒模型/盒子模型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/转换/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/转换/转换.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/过渡/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CSS/过渡/过渡.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/JS/Object/原型及原型链.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/JS/DOM/document.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JS/DOM/document.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CSS/浮动/float.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CSS/浮动/float.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CSS/背景/background.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CSS/背景/background.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Vue/组件通信/$attrs&amp;$listeners.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vue/组件通信/$attrs&amp;$listeners.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +94,10 @@
       <workItem from="1607650254795" duration="24792000" />
       <workItem from="1607758284206" duration="20990000" />
       <workItem from="1607872965915" duration="181000" />
-      <workItem from="1607909152765" duration="1464000" />
+      <workItem from="1607909152765" duration="2918000" />
+      <workItem from="1607943885589" duration="533000" />
+      <workItem from="1607955006283" duration="169000" />
+      <workItem from="1607955502365" duration="6805000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1606723530878</created>
@@ -151,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607872986914</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="部分修改">
+      <created>1607911433868</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607911433868</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +200,8 @@
     <MESSAGE value="add 事件机制" />
     <MESSAGE value="add this指向问题" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="部分修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="部分修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2573" y="274" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607871085976">
@@ -188,11 +214,11 @@
     </state>
     <state x="549" y="181" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606982341839" />
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606744178805" />
-    <state x="2371" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607872999198">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="361" y="160" key="Vcs.Push.Dialog.v2" timestamp="1607911442483">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="2371" y="201" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1607872999198" />
-    <state x="361" y="160" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1607676099740" />
+    <state x="361" y="160" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1607911442483" />
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606723658996" />
     <state x="2451" y="238" width="840" height="853" key="run.anything.popup" timestamp="1607846101288">
       <screen x="1920" y="0" width="1920" height="1050" />

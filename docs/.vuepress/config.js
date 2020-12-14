@@ -31,8 +31,14 @@ module.exports = {
                         { title:'伪类' , path:'/CSS/伪类/伪类'},
                         { title:'字体' , path: '/CSS/字体/font'},
                         { title:'背景' , path:'/CSS/背景/background'},
+                        { title:'文档流', path:'/CSS/文档流/文档流'},
+                        { title:'盒模型', path:'/CSS/盒模型/盒子模型'},
                         { title:'浮动' , path:'/CSS/浮动/float'},
-                        { title:'定位' , path:'/CSS/定位/position'}
+                        { title:'定位' , path:'/CSS/定位/position'},
+                        { title:'css3属性',path:'/CSS/css3属性/css3'},
+                        { title:'转换' , path:'/CSS/转换/转换'},
+                        { title:'过渡' , path:'/CSS/过渡/过渡'},
+                        { title:'动画', path:'/CSS/动画/动画'}
                     ]
                 },
 
