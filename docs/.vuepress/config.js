@@ -76,7 +76,7 @@ module.exports = {
                         { title:'作用域链', path:'/JS/Function/作用域链'},
                         { title:'闭包', path:'/JS/Function/闭包'},
                         { title:'this指向问题', path:'/JS/Function/this指向问题'},
-                        { title:'call,apply,bind', path:'/JS/Function/改变this'}
+                        { title:'call,apply,bind', path:'/JS/Function/改变this'},
                     ]
                 },
                 {
