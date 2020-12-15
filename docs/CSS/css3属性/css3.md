@@ -2,7 +2,7 @@
 
 -----
 
-## 文本属性
+## 1.文本属性
 
 **1.文本的阴影text-shadow**
 
@@ -26,7 +26,7 @@ text-shadow: 20px 27px 22px pink;
 ![avatar](../../.vuepress/public/image/autu.png)
 
 
-## box-sizing
+## 2.box-sizing
 
 CSS3 对盒模型做出了新的定义，即允许开发人员**指定盒子宽度和高度的计算方式**。
 
@@ -42,7 +42,7 @@ CSS3 对盒模型做出了新的定义，即允许开发人员**指定盒子宽�
 
 此时设置的 width 和 height 是**盒子**的总宽高。`盒子的实际宽度 = 设置的 width`。此时改变 padding 和 border 的大小，会改变内容的宽高，盒子的总宽高不变。
 
-## 私有前缀
+## 3.私有前缀
 
 处理兼容性问题的常见方法：为属性添加**私有前缀**。
 
@@ -63,7 +63,7 @@ CSS3 对盒模型做出了新的定义，即允许开发人员**指定盒子宽�
     background: linear-gradient(left, green, yellow);
 ```
 
-## 边框属性
+## 4.边框属性
 
 **1.边框圆角border-radius**
 
