@@ -38,7 +38,8 @@ module.exports = {
                         { title:'css3属性',path:'/CSS/css3属性/css3'},
                         { title:'转换' , path:'/CSS/转换/转换'},
                         { title:'过渡' , path:'/CSS/过渡/过渡'},
-                        { title:'动画', path:'/CSS/动画/动画'}
+                        { title:'动画', path:'/CSS/动画/动画'},
+                        { title:'水平垂直居中', path:'/CSS/水平垂直居中/center'}
                     ]
                 },
 
@@ -74,6 +75,7 @@ module.exports = {
                         { title:'预编译', path:'/JS/Function/预编译'},
                         { title:'作用域', path:'/JS/Function/作用域'},
                         { title:'作用域链', path:'/JS/Function/作用域链'},
+                        { title:'高阶函数', path:'/JS/Function/高阶函数'},
                         { title:'闭包', path:'/JS/Function/闭包'},
                         { title:'this指向问题', path:'/JS/Function/this指向问题'},
                         { title:'call,apply,bind', path:'/JS/Function/改变this'},
@@ -102,7 +104,9 @@ module.exports = {
                     title:'Event',
                     collapsable: false,
                     children:[
-                        { title:'事件级别', path:'/JS/Event/事件级别'}
+                        { title:'事件级别', path:'/JS/Event/事件级别'},
+                        { title:'事件传播与冒泡' , path:'/JS/Event/事件传播与冒泡'},
+                        { title:'事件委托' , path:'/JS/Event/事件委托'}
                     ]
                 },
                 {

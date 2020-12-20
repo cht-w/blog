@@ -48,3 +48,23 @@ CSS样式中，常见的文本属性有以下几种：
 - `color:red;` 字体颜色
 - `text-align: center;` 在当前容器中的对齐方式。属性值可以是：left、right、center、justify
 - `text-transform: lowercase;` 单词的字体大小写。属性值可以是：`uppercase`（单词大写）、`lowercase`（单词小写）、`capitalize`（每个单词的首字母大写）
+
+## 3.文本溢出积累
+
+* 让文字只显示一行，超出显示省略号
+
+```css
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+```
+
+* 让文字最多只显示两行，超出后显示省略号
+
+```css
+overflow:hidden;
+text-overflow:ellipsis;
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-line-clamp:2;
+```
