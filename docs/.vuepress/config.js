@@ -14,9 +14,10 @@ module.exports = {
                 items:[
                     { text:'CSS' , link:'/CSS/'},
                     { text:'JS' , link:'/JS/'},
-                    { text:'Webpack' , link:'/Webpack/'},
+                    { text:'ES6' , link:'/Es6/'},
                     { text:'Git' , link:'/Git/'},
-                    { text:'Vue', link:'/Vue/'}
+                    { text:'Webpack' , link:'/Webpack/'},
+                    { text:'Vue', link:'/Vue/'},
                 ]
             }
         ],
@@ -116,6 +117,58 @@ module.exports = {
                         { title: "Ajax入门", path:'/JS/Ajax/ajax入门'},
                         { title:'网络请求封装', path:'/JS/Ajax/封装'}
                     ]
+                }
+            ],
+            '/Es6/': [
+                {
+                    title:'let与const',
+                    collapsable:false,
+                    path:'/Es6/let与const'
+                },
+                {
+                    title:'模板字符串',
+                    collapsable:false,
+                    path:'/Es6/模板字符串'
+                },
+                {
+                    title:'解构赋值',
+                    collapsable:false,
+                    path:'/Es6/解构赋值'
+                },
+                {
+                    title:'扩展操作符',
+                    collapsable:false,
+                    path:'/Es6/扩展操作符'
+                },
+                {
+                    title:'对象属性简写',
+                    collapsable:false,
+                    path:'/Es6/对象属性简写'
+                },
+                {
+                    title:'箭头函数',
+                    collapsable:false,
+                    path:'/Es6/箭头函数'
+                },
+                {
+                    title:'参数默认值',
+                    collapsable:false,
+                    path:'/Es6/参数默认值'
+                },
+                {
+                    title:'Class',
+                    collapsable:false,
+                    path:'/Es6/class'
+                },
+                {
+                    title:'模块化',
+                    collapsable:false,
+                    path:'/Es6/模块化'
+                },
+                {
+                    title:'Promise',
+                    collapsable:false,
+                    path:'/Es6/Promise'
                 }
             ],
             '/Vue/': [
