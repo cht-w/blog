@@ -141,3 +141,77 @@
     let arr = Array.of("js" , "css" , "html" ,"node")
     let res = arr.findIndex((item)=> item==='html')
 ```
+## 高阶函数
+
+### 1.filter
+
+**filter用于把数组的某些元素过滤掉，返回符合条件的元素的集合。对于每一个传入filter=数组元素，根据返回值进行决定是否过滤**
+
+```js
+let arr = [
+    {name:'css' , age:30 , sex:'男'},
+    {name:'cht1' , age:25 , sex:'女'},
+    {name:'hw' , age:17 , sex:'女'},
+    {name:'cht2' , age:5 , sex:'男'},
+]
+
+let newArr = arr.filter((item)=> {
+    let res = item.age > 20
+    return res
+})
+
+console.log(newArr); 
+// [ {name: "css", age: 30, sex: "男"} , {name: "cht1", age: 25, sex: "女"} ]
+```
+
+### 2.map
+
+**map接收一个回调函数，第一个参数最常用的，即数组里的每一项，然后我们可以计算数组中的内容，返回一个新的数组**
+
+```js
+// 举例 一
+let arr = [1,2,3,4,5,6,7];
+
+let newArr = arr.map((n)=> {
+    return n*2
+})
+console.log(newArr);
+
+// 举例 二
+let arr = [
+    {name:'css' , age:30 , sex:'男'},
+    {name:'cht1' , age:25 , sex:'女'},
+    {name:'hw' , age:17 , sex:'女'},
+    {name:'cht2' , age:5 , sex:'男'},
+]
+let newArr = arr.map((n)=> {
+    return {
+        name:n.name+'!'
+        age:n.age+10
+    }
+})
+console.log(newArr);
+// [ { name: 'css!', age: 40 },
+//   { name: 'cht1!', age: 35 },
+//   { name: 'hw!', age: 27 },
+//   { name: 'cht2!', age: 15 } ]
+```
+
+### 3.reduce
+
+**这个函数必须接收两个参数，reduce()把结果继续和序列的下一个元素做累积计算。**
+
+1. 回调函数, 回调函数的参数： prev cur curIndex arr
+2. 迭代初始值,也就是第一次迭代的时候 prev的值
+
+```js
+
+let arr = [1,2,3,4,5,6];
+
+let newArr = arr.reduce((prev ,cur , curIndex , arr)=> {
+    console.log(prev , cur , curIndex , arr);  // 这里打印 reduce 参数详细值
+    return prev+cur
+} , 0)
+console.log(newArr);  // 21  累加
+```
+**reduce功能很强大，后面会多总结一些使用场景**
