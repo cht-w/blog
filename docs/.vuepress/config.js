@@ -64,7 +64,10 @@ module.exports = {
                 {
                     title:'数组Array',
                     collapsable: false,
-                    path:'/JS/Array/methods'
+                    children:[
+                        {title:'常用方法' , path:'/JS/Array/meth'},
+                        {title:'循环遍历' , path:'/JS/Array/methods'},
+                    ]
                 },
                 {
                     title:'函数',
