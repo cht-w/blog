@@ -40,7 +40,8 @@ module.exports = {
                         { title:'转换' , path:'/CSS/转换/转换'},
                         { title:'过渡' , path:'/CSS/过渡/过渡'},
                         { title:'动画', path:'/CSS/动画/动画'},
-                        { title:'水平垂直居中', path:'/CSS/水平垂直居中/center'}
+                        { title:'水平垂直居中', path:'/CSS/水平垂直居中/center'},
+                        { title:'移动端适配方案' , path:'/CSS/移动端适配/移动端适配'}
                     ]
                 },
 
@@ -59,7 +60,11 @@ module.exports = {
                 {
                     title:'字符串String',
                     collapsable: false,
-                    path:'/JS/String/methods'
+                    children:[
+                        { title:'常用方法' , path:'/JS/String/methods'},
+                        { title:'练习' , path:'/JS/String/练习'}
+                        
+                    ]
                 },
                 {
                     title:'数组Array',

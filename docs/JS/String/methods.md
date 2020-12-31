@@ -157,3 +157,4 @@
     var str = " a b c ";
     console.log(str.trim()); //"a b c"
 ```
+
