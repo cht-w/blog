@@ -40,6 +40,7 @@ module.exports = {
                         { title:'转换' , path:'/CSS/转换/转换'},
                         { title:'过渡' , path:'/CSS/过渡/过渡'},
                         { title:'动画', path:'/CSS/动画/动画'},
+                        { title:'flex' , path:'/CSS/flex布局/flex'},
                         { title:'水平垂直居中', path:'/CSS/水平垂直居中/center'},
                         { title:'前端常见单位', path:'/CSS/常见单位/单位'},
                         { title:'移动端适配方案' , path:'/CSS/移动端适配/移动端适配'}
