@@ -72,8 +72,9 @@ module.exports = {
                     title:'数组Array',
                     collapsable: false,
                     children:[
-                        {title:'常用方法' , path:'/JS/Array/meth'},
                         {title:'循环遍历' , path:'/JS/Array/methods'},
+                        {title:'循环原理' , path:'/JS/Array/meth'},
+
                     ]
                 },
                 {
@@ -108,7 +109,9 @@ module.exports = {
                         { title:'文档加载', path:'/JS/DOM/文档加载'},
                         { title:'document对象', path:'/JS/DOM/document'},
                         { title:'节点关系', path:'/JS/DOM/节点关系及操作'},
-                        { title:'节点操作',path:'/JS/DOM/节点操作'}
+                        { title:'节点操作',path:'/JS/DOM/节点操作'},
+                        { title:'样式操作' , path:'/JS/DOM/样式操作'},
+                        { title:'三大家族' , path:'/JS/DOM/三大家族'}
                     ]
                 },
                 {
