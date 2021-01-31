@@ -154,9 +154,14 @@ module.exports = {
                     path:'/Es6/扩展操作符'
                 },
                 {
-                    title:'对象属性简写',
+                    title:'对象的扩展',
                     collapsable:false,
-                    path:'/Es6/对象属性简写'
+                    path:'/Es6/对象的扩展'
+                },
+                {
+                    title:'数据结构Set',
+                    collapsable:false,
+                    path:'/Es6/数据结构Set'
                 },
                 {
                     title:'箭头函数',
