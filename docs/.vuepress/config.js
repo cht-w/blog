@@ -159,9 +159,19 @@ module.exports = {
                     path:'/Es6/对象的扩展'
                 },
                 {
+                    title:'对象的拷贝',
+                    collapsable:false,
+                    path:'/Es6/对象的拷贝'
+                },
+                {
                     title:'数据结构Set',
                     collapsable:false,
                     path:'/Es6/数据结构Set'
+                },
+                {
+                    title:'数据结构Map',
+                    collapsable:false,
+                    path:'/Es6/数据结构map'
                 },
                 {
                     title:'箭头函数',
